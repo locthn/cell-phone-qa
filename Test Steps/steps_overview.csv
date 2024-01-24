@@ -1,5 +1,5 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-0,Verify Successful Order Placement from Product Page to Thank You Page,Navigate to the home page and proceed to select a hot new product. Add the item to the cart and proceed to checkout. Enter the required shipping information and complete the payment process. Verify the successful placement of the order on the thank you page.,"step 1: Navigate to Page_home
+0,Verify Successful Order Placement from Product Page to Thank You Page,"Navigate to the product page and add the item to the cart. Proceed to checkout, enter shipping details, and complete the payment. Verify the order completion on the thank you page.","step 1: Navigate to Page_home
 step 2: At Page home, click on hyperlink hot new > navigate to Page product/*
 step 3: At Page product/*, click on label object
 step 4: At Page product/*, click on label object
