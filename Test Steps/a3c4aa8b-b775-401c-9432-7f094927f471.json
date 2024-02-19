@@ -1,0 +1,8 @@
+{
+    "steps": [
+        "step 1: Navigate to Page home",
+        "step 2: At Page home login > navigate to Page inventory html",
+        "step 3: At Page inventory html, click on hyperlink sauce labs backpack > navigate to Page inventory-item html",
+        "step 4: Add visual checkpoint at Page inventory-item html"
+    ]
+}

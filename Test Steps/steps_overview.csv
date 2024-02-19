@@ -1,32 +1,41 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-0,Verify Successful Order Placement from Product Page to Thank You Page,"Navigate to the product page and add the item to the cart. Proceed to checkout, enter shipping details, and complete the payment. Verify the order completion on the thank you page.","step 1: Navigate to Page_home
-step 2: At Page home, click on hyperlink hot new > navigate to Page product/*
-step 3: At Page product/*, click on label object
-step 4: At Page product/*, click on label object
-step 5: At Page product/*, click on button buy
-step 6: At Page product/*, click on hyperlink place an order > navigate to Page cart
-step 7: At Page cart, click on button proceed to checkout > navigate to Page checkout/info
-step 8: At Page checkout/info, hover on div object
-step 9: At Page checkout/info, click on input email
-step 10: At Page checkout/info, input on input email
-step 11: At Page checkout/info, click on main object
-step 12: At Page checkout/info, click on button continue to shipping
-step 13: At Page checkout/info, input on input email
-step 14: At Page checkout/info, click on button continue to shipping > navigate to Page checkout/shipping-address
-step 15: At Page checkout/shipping-address, hover on div object
-step 16: At Page checkout/shipping-address, click on input shipping address first name
-step 17: At Page checkout/shipping-address, hover on div object
-step 18: At Page checkout/shipping-address, input on input shipping address first name
-step 19: At Page checkout/shipping-address, click on input shipping address last name
-step 20: At Page checkout/shipping-address, input on input shipping address last name
-step 21: At Page checkout/shipping-address, input on input shipping address address line 1
-step 22: At Page checkout/shipping-address, input on input shipping address zip
-step 23: At Page checkout/shipping-address, input on input shipping address city
-step 24: At Page checkout/shipping-address, input on input shipping address state
-step 25: At Page checkout/shipping-address, input on input shipping address phone
-step 26: At Page checkout/shipping-address, click on button continue to payment > navigate to Page checkout/payment
-step 27: At Page checkout/payment, click on button complete order > navigate to Page thank-you/*
-step 28: Add visual checkpoint at Page_thank-you/*",High
-1,Verify Display of Apple Category Page,Navigate to the home page and select the apple category. Verify the display of the apple category page.,"step 1: Navigate to Page_home
-step 2: At Page home, click on hyperlink apple > navigate to Page category/apple
-step 3: Add visual checkpoint at Page_category/apple",Trivial
+1,Verify Inventory Item Details after Login,Navigate to the home page and login to access the inventory. Click on a specific item and verify the item details.,"step 1: Navigate to Page home
+step 2: At Page home login > navigate to Page inventory html
+step 3: At Page inventory html, click on hyperlink sauce labs backpack > navigate to Page inventory-item html
+step 4: Add visual checkpoint at Page inventory-item html",High
+2,Verify Checkout Process and Complete Order,Navigate to the home page and proceed with the checkout process. Enter shipping details and complete the payment. Verify the order completion.,"step 1: Navigate to Page home
+step 2: At Page home, click on hyperlink hot new > navigate to Page product
+step 3: At Page product, click on label object
+step 4: At Page product, click on label object
+step 5: At Page product, click on button buy
+step 6: At Page product, click on hyperlink place an order > navigate to Page cart
+step 7: At Page cart, click on button proceed to checkout > navigate to Page checkout info
+step 8: At Page checkout info, hover on div object
+step 9: At Page checkout info, click on input email
+step 10: At Page checkout info, input on input email
+step 11: At Page checkout info, click on main object
+step 12: At Page checkout info, click on button continue to shipping
+step 13: At Page checkout info, input on input email
+step 14: At Page checkout info, click on button continue to shipping > navigate to Page checkout shipping-address
+step 15: At Page checkout shipping-address, hover on div object
+step 16: At Page checkout shipping-address, click on input shipping address first name
+step 17: At Page checkout shipping-address, hover on div object
+step 18: At Page checkout shipping-address, input on input shipping address first name
+step 19: At Page checkout shipping-address, click on input shipping address last name
+step 20: At Page checkout shipping-address, input on input shipping address last name
+step 21: At Page checkout shipping-address, input on input shipping address address line 1
+step 22: At Page checkout shipping-address, input on input shipping address zip
+step 23: At Page checkout shipping-address, input on input shipping address city
+step 24: At Page checkout shipping-address, input on input shipping address state
+step 25: At Page checkout shipping-address, input on input shipping address phone
+step 26: At Page checkout shipping-address, click on button continue to payment > navigate to Page checkout payment
+step 27: At Page checkout payment, click on button complete order > navigate to Page thank-you
+step 28: Add visual checkpoint at Page thank-you",Low
+3,Verify Successful Login and Access to Home Page,Navigate to the home page and login to access the home dashboard. Click on a specific button and verify successful access to the home page.,"step 1: Navigate to Page home
+step 2: At Page home, click on button start > navigate to Page dvc-login
+step 3: At Page dvc-login login > navigate to Page dvc-home
+step 4: At Page dvc-home, click on button ng thu
+step 5: Add visual checkpoint at Page dvc-home",Trivial
+4,Verify Details of Apple Category,Navigate to the home page and click on the apple category. Verify the details of the apple category.,"step 1: Navigate to Page home
+step 2: At Page home, click on hyperlink apple > navigate to Page category apple
+step 3: Add visual checkpoint at Page category apple",Trivial
